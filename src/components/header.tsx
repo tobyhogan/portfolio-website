@@ -23,8 +23,6 @@ function Header() {
   const navList = 
     <>
 
-      <Link to="/demos" className="Link2 hover:underline">Feature Demos</Link>    
-      <Link to="/hashdemo" className="Link2 hover:underline">URL Hashes</Link>    
       <Link to="/page1" className="Link2 hover:underline">Page 1</Link>
       <Link to="/page2" className="Link2 hover:underline">Page 2</Link>
 
@@ -141,7 +139,7 @@ function Header() {
   return (
     
     <header className="NavBar flex justify-between fixed w-full">
-      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Project Title</Link>
+      <Link to='/' className='Link1 ml-[5vw] pt-4 pb-4'>Toby Hogan - Portfolio</Link>
 
       <div className="flex flex-row">
 
